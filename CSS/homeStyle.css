@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #24353f;
+}
+.login-system{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1 {
+    color: #17a2b8;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.btn-outline-warning {
+    color: #ffc107;
+    background-color: transparent;
+    border: 1px solid #ffc107;
+}

@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/homeStyle.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark group">
+        <div class="container">
+            <a class="navbar-brand" href="#">SMART LOGIN</a>
+            <a class="nav-link btn btn-outline-warning" href="index.html">Logout</a>
+        </div>
+    </nav>
+    <div class="container my-5 text-center h-100 d-flex align-items-center">
+        <div class="login-system m-auto w-75 p-5">
+            <h1 id="username">Welcome 
+                <span id="logedUserName"></span>
+            </h1>
+        </div>
+    </div>
+    <script>
+        var Name = sessionStorage.getItem("pass_to_home");
+        document.getElementById("logedUserName").innerHTML = Name;
+    </script>
+</body>
+</html>
